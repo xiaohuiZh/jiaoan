@@ -1,0 +1,34 @@
+\documentclass[UTF8]{jiaoAnthesis}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage[nameinlink]{cleveref}  % after hyperref packages
+\usepackage{wrapfig}
+
+\graphicspath{./figs/} % 设置插图文件存放位置
+\addbibresource{ref.bib} % 设置参考文献文件位置
+
+% 图书分类号：在 https://www.clcindex.com/ 查询
+\clc{TE319}
+\ctitle{湖南科技大学大学-学科数学-教案}
+\cmajor{学科专业}
+\research{研究方向}
+\cauthor{张晓慧}
+\id{21020701027}
+\csupervisor{导师姓名}
+
+\begin{document}
+\frontmatter
+\tableofcontents
+\cleardoublepage
+
+\mainmatter
+\include{content/jiaoan01.tex}
+\cleardoublepage
+\include{content/jiaoan02.tex}
+\cleardoublepage
+\include{content/jiaoan03.tex}
+\cleardoublepage
+\include{content/jiaoan04.tex}
+\cleardoublepage
+\include{content/jiaoan05.tex}
+\end{document}
